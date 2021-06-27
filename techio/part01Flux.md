@@ -17,7 +17,7 @@ It can emit 0 to _n_ `<T>` elements (`onNext` event) then either completes or er
 
 See the javadoc [here](https://projectreactor.io/docs/core/release/api/reactor/core/publisher/Flux.html).
 
-![Marble diagram representation of a Flux](/techio/assets/flux.png)
+![Marble diagram representation of a Flux](assets/flux.png)
 
 `Flux` in action :
 
@@ -36,7 +36,7 @@ Flux.fromIterable(getSomeLongList())
 
 In this lesson we'll see different factory methods to create a `Flux`.
 
-> ![Tip](/techio/assets/tip.png) **TIP**: If you want some insight as to what is going on
+> ![Tip](assets/tip.png) **TIP**: If you want some insight as to what is going on
 inside a `Flux` or `Mono` you are about to return during one of these exercises, you can
 always append `.log()` to the flux just before returning it. Part 6 makes use of that. 
 
